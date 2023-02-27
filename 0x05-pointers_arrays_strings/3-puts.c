@@ -1,23 +1,21 @@
 #include "main.h"
 
 /**
- * print_string - prints a string to stdout, followed by a new line.
+ * _puts - prints a string to stdout.
  *
- * @s: pointer to a string.
+ * @str: pointer to a string.
  *
  * Return: void.
  */
 
-void print_string(char *s)
+void _puts(char *str)
 {
-	if (s != NULL)
+	if (str != NULL)
 	{
-		while (*s != '\0')
+		while (*str != '\0')
 		{
-			_putchar(*s);
-			s++;
+			_putchar(*str);
+			str++;
 		}
 	}
-
-	_putchar('\n');
 }
