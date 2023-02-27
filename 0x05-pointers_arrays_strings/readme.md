@@ -1,1 +1,1 @@
-0x05-pointers_arrays_strings
+This assignment is on pointers and arrays
