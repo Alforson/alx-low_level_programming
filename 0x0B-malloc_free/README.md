@@ -1,0 +1,1 @@
+Assignment on memory allocation
