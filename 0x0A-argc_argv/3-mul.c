@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+#include <stdio.h>
 
 /**
  * main - Entry point
@@ -27,9 +28,7 @@ int main(int argc, char *argv[])
 	num2 = atoi(argv[2]);
 	result = num1 * num2;
 
-	_putchar(result / 10 + '0');
-	_putchar(result % 10 + '0');
-	_putchar('\n');
+	printf("%d\n", result);
 
 	return (0);
 }
