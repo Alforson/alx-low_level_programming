@@ -1,22 +1,21 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - Entry point
  * @argc: The number of command line arguments
  * @argv: An array containing the command line arguments
  *
- * Return: Always 0 (Success)
+ * Return: 0 on success
  */
-int main(int argc, char **argv)
+int main(int __attribute__((unused)) argc, char *argv[])
 {
-    int count = 0;
+	int count = 0;
 
-    while (argc--)
-    {
-        count++;
-    }
+	while (argv[count])
+		count++;
 
-    printf("%d\n", count - 1);
+	_putchar(count + '0');
+	_putchar('\n');
 
-    return (0);
+	return (0);
 }
