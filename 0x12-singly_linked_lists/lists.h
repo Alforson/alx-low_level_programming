@@ -11,6 +11,10 @@
  *
  * Description: singly linked list node structure
  */
+
+#include <stdlib.h>
+#include <string.h>
+
 typedef struct list_s
 {
 	char *str;
